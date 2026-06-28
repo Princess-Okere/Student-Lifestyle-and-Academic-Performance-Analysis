@@ -147,14 +147,11 @@ study failed to add value. Average GPA climbed from **2.81 at 5–6 hrs** to
 ### 3. Physical Activity Produces a Gradual, Marginal GPA Decline
 More physical activity is associated with lower GPA, but the decline is slow 
 and modest — a total drop of **−0.29 GPA points** across the full activity 
-range. Critically, the decline flattens at higher activity levels (4–5 hrs and 
-5–6 hrs produce almost identical GPAs), suggesting diminishing negative impact 
-rather than a compounding penalty.
+range.
+ The pattern reflects a steady, gradual decrease rather than a sharp drop.
+This suggests that higher physical activity hours are associated with slightly lower academic performance, but the effect is modest. Overall, the trend indicates a small trade-off in time allocation rather than a strong impact of physical activity on GPA.
 
-The most likely explanation is a time trade-off: every hour spent on physical 
-activity is an hour not spent studying, and study hours are the primary GPA 
-driver. Physical activity itself is not academically harmful — it competes 
-for finite time.
+<img width="411" height="279" alt="image" src="https://github.com/user-attachments/assets/c82b8cb8-dee3-4e50-a7f0-7faf36cb8eaf" />
 
 ### 4. High Stress Is a Feature of Top Academic Performance, Not a Barrier
 **96.8% of High Performers (GPA ≥ 3.5) experience High Stress** — compared 
