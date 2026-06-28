@@ -6,10 +6,9 @@
 - [Data Preparation & Engineered Columns](#data-preparation--engineered-columns)
 - [Analysis Questions](#analysis-questions)
 - [Key Findings](#key-findings)
-- [Recommendations](#recommendations)
-- [Tools Used](#tools-used)
+- [Key Takeaways](#key-takeaways)
 - [Analytical Skills Demonstrated](#analytical-skills-demonstrated)
-
+- [Tools Used](#tools-used)
 ---
 
 ## Project Overview
@@ -153,11 +152,13 @@ This suggests that higher physical activity hours are associated with slightly l
 
 <img width="411" height="279" alt="image" src="https://github.com/user-attachments/assets/c82b8cb8-dee3-4e50-a7f0-7faf36cb8eaf" />
 
-### 4. High Stress Is a Feature of Top Academic Performance, Not a Barrier
+### 4. High Stress Is a Feature of Top Academic Performance
 **96.8% of High Performers (GPA ≥ 3.5) experience High Stress** — compared 
 to 51.5% of all students. High Stress students also carry the highest average 
 GPA across the entire dataset (3.26), while Low Stress students average just 
 2.82.
+
+<img width="616" height="267" alt="image" src="https://github.com/user-attachments/assets/6fbf728e-6c30-4944-a299-e2a2bf511dbc" />
 
 Further analysis of the `Study_Share_Pct` column reveals why: High Stress 
 students dedicate **50.2% of their total productive hours to study alone**, 
@@ -174,6 +175,9 @@ social engagement (5–6 hrs/day), maintained a GPA above 3.0. Socially active
 students remain above-average performers regardless of how much time they 
 spend socialising.
 
+<img width="414" height="277" alt="GPA vs Social_Hour" src="https://github.com/user-attachments/assets/696d3f85-53cf-4a75-8681-78f81f222359" />
+
+
 ### 6. True Lifestyle Balance Is Effectively Absent Among Top Performers
 Using a standard deviation threshold of ≤ 1.5 across four lifestyle activities 
 (Study, Social, Physical Activity, Extracurricular) to define genuine balance, 
@@ -181,23 +185,31 @@ Using a standard deviation threshold of ≤ 1.5 across four lifestyle activities
 students** achieve a truly even distribution of time — making balanced high 
 achievers an extremely rare profile in this dataset.
 
-The inverse pattern is equally notable: Below Average students show the 
-highest proportion of balanced schedules (6.5%), suggesting that spreading 
+The inverse pattern is equally notable: Average students show the 
+highest proportion of balanced schedules (9.8%), suggesting that spreading 
 time evenly across activities, while appealing in theory, does not translate 
 into top academic outcomes.
 
-### 7. High Stress Students Study More and Move Less in Equal Measure
-High Stress students average **8.39 study hours per day** versus 5.47 for 
-Low Stress students — a difference of nearly 3 hours. The time for that extra 
-study is drawn primarily from Physical Activity, where High Stress students 
-average 3.96 hrs/day compared to 5.58 hrs/day for Low Stress students. Sleep 
-and social hours remain relatively stable across all three stress groups, 
-confirming that the High Stress lifestyle is defined by a specific study-versus-
-movement trade-off rather than a general compression of all other activities.
+<img width="585" height="268" alt="Student Balance Profile" src="https://github.com/user-attachments/assets/da5a832b-030e-44fa-bbbc-e6c3e489c35c" />
+
+
+### 7. Increased studying hour is responsible for stress
+Studying Contributes to 50.2% of High Stress Levels Among Students.
+
+After identifying that high-performing students overwhelmingly belonged to the high-stress category, a follow-up question emerged: What is driving this stress? Is it the challenge of balancing time across multiple activities, or is it linked to a specific activity?
+
+The analysis points clearly to studying as the primary source of stress. Among high-performing students, study hours account for 57% of reported high stress levels, making it the largest contributor by a considerable margin. This suggests that the elevated stress observed among top-performing students is not primarily the result of trying to maintain a balanced lifestyle. Instead, it appears to be closely associated with the increased study commitment required to achieve strong academic outcomes.
+
+Taken together, these findings indicate that academic success in this dataset is strongly linked to intensive study habits, and that the stress experienced by high performers is largely a by-product of the effort invested in maintaining high grades.
+
+
+<img width="375" height="278" alt="Study_Hr Stress Distribution" src="https://github.com/user-attachments/assets/73f2a69d-df0f-4ae5-825e-21750fdf16b3" />
+
+
 
 ---
 
-## Recommendations
+## Key Takeaways
 
 **For students aiming to improve GPA:**
 Study hours is the single most reliable lever available. The data shows 
@@ -211,13 +223,6 @@ performance. A 0.07 GPA difference across the full social hours spectrum is
 statistically negligible. Students can maintain an active social life without 
 meaningfully sacrificing grades.
 
-**For students and educators regarding stress:**
-High stress and high performance are closely linked in this dataset, but the 
-mechanism matters. The stress appears to stem from study concentration, not 
-from overwhelming workload across many commitments. Interventions focused on 
-time allocation awareness — rather than blanket stress reduction — may be more 
-effective for this student profile.
-
 **For the pursuit of "balance":**
 The data suggests that true lifestyle balance, as defined by an even 
 distribution of time across all activities, is incompatible with top-tier 
@@ -228,14 +233,22 @@ academic performance in this dataset. Students and advisors should reframe
 
 ## Analytical Skills Demonstrated
 
-| Skill | Application |
-|---|---|
-| Data transformation | Power Query: data loading, type setting, column engineering |
-| Feature engineering | Derived five meaningful columns from raw data |
-| Statistical reasoning | Applied standard deviation as a balance metric; selected and defended threshold choice after validating against raw data |
-| Pivot Table design | Seven structured pivot tables with custom aggregations, grouped bands, and filtered views |
-| Chart selection | Matched chart types to data structure and analytical question — diverging bar, line, 100% stacked bar, clustered bar |
-| Insight-led titling | All chart titles state findings directly, following the established standard: specific subject, specific finding, no topic labels |
-| Dashboard design | Single-screen interactive dashboard with three slicers, five KPI cards, static and dynamic chart architecture |
-| Analytical thinking | Independently identified misleading axis scaling (Q5), flawed threshold definition (Q6), and chart type mismatch (Q7b) during the build process |
-| Portfolio documentation | Structured GitHub README with full methodology transparency including threshold justification and engineered column rationale |
+* **Data Cleaning & Transformation** – Used Power Query for data loading, type correction, and column preparation.
+* **Feature Engineering** – Created five derived columns to support stress, performance, and balance analysis.
+* **Statistical Analysis** – Applied standard deviation to measure activity balance and validated the threshold against the underlying data.
+* **Pivot Table Analysis** – Built multiple pivot tables with custom aggregations, grouped bands, and slicer-driven views.
+* **Data Visualization** – Selected and designed appropriate chart types, including line charts, clustered bar charts, diverging bars, and 100% stacked bars.
+* **Interactive Dashboard Development** – Built a single-page dashboard with slicers, KPI cards, dynamic charts, and linked interactions.
+* **Excel Automation** – Recorded and implemented a VBA macro to clear dashboard filters, improving usability and enabling a cleaner slicer design without visible headers.
+* **Data Storytelling** – Converted analytical findings into concise insight-driven chart titles and dashboard narratives.
+* **Documentation & Reporting** – Produced a structured GitHub README covering methodology, assumptions, calculations, findings, and analytical decisions.
+
+
+## Tools Used
+
+* Microsoft Excel (Pivot Tables, Power Query, GETPIVOTDATA).
+* Dynamic KPI cards with GETPIVOTDATA formulas.
+* Slicer-driven filtering with Report Connections.
+* VBA macro for filter clearing.
+
+
