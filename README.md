@@ -141,6 +141,9 @@ per day), with no plateau, no threshold effect, and no band where additional
 study failed to add value. Average GPA climbed from **2.81 at 5–6 hrs** to 
 **3.42 at 9–10 hrs** — a clean, unbroken progression.
 
+<img width="593" height="243" alt="image" src="https://github.com/user-attachments/assets/8c95954d-4d21-4cd2-bc09-03efa7f40fd3" />
+
+
 ### 3. Physical Activity Produces a Gradual, Marginal GPA Decline
 More physical activity is associated with lower GPA, but the decline is slow 
 and modest — a total drop of **−0.29 GPA points** across the full activity 
