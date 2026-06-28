@@ -131,6 +131,8 @@ hour bands was **+0.61 points** — by far the largest swing of any activity.
 Every other activity produced either a negative or negligible relationship 
 with GPA.
 
+<img width="576" height="244" alt="image" src="https://github.com/user-attachments/assets/f05354a1-5e46-4cce-866e-bced5c462dc7" />
+
 
 
 ### 2. The Study-GPA Relationship Is Consistent and Linear
