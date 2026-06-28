@@ -15,7 +15,6 @@
 ## Project Overview
 
 
-
 This project explores the relationship between student lifestyle habits and 
 academic performance using a synthetic dataset of 2,000 students. 
 The central question driving the analysis is: **what lifestyle factors actually 
