@@ -1,0 +1,2 @@
+# Student-Lifestyle-and-Academic-Performance-Analysis
+ This project explores the relationship between student lifestyle habits and  academic performance using a synthetic dataset of 2,000 university students. The dashboard was built entirely in Microsoft Excel using Power Query for data  transformation, Pivot Tables for aggregation &amp; a fully interactive dashboard  with slicers for dynamic filtering.
