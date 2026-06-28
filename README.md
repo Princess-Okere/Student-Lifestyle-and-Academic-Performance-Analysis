@@ -13,7 +13,7 @@
 ---
 
 ## Project Overview
-
+https://github.com/Princess-Okere/Student-Lifestyle-and-Academic-Performance-Analysis/blob/e2377d18e5d00ff24d21ea53b52b7513661bde8e/Dashboard%20Overview.png
 
 This project explores the relationship between student lifestyle habits and 
 academic performance using a synthetic dataset of 2,000 students. 
