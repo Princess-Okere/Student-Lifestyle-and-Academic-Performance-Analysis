@@ -14,7 +14,9 @@
 
 ## Project Overview
 
- 
+ <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/11717e24-9461-4602-9351-c7a3f8875301" />
+
+
 
 This project explores the relationship between student lifestyle habits and 
 academic performance using a synthetic dataset of 2,000 students. 
@@ -107,7 +109,7 @@ intensity alone or by juggling multiple commitments simultaneously.
 
 ## Analysis Questions
 
-Seven business questions structured the analysis:
+This dashboard was built to answer these questions:
 
 1. Which lifestyle factor has the strongest relationship with GPA?
 2. Do students who study more actually get better GPAs?
@@ -128,6 +130,8 @@ positive GPA impact. The GPA difference between the lowest and highest study
 hour bands was **+0.61 points** — by far the largest swing of any activity. 
 Every other activity produced either a negative or negligible relationship 
 with GPA.
+
+
 
 ### 2. The Study-GPA Relationship Is Consistent and Linear
 GPA rose with every additional hour of study across the full range (5–10 hours 
