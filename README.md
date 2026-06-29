@@ -237,8 +237,8 @@ academic performance in this dataset. Students and advisors should reframe
 * **Feature Engineering** – Created five derived columns to support stress, performance, and balance analysis.
 * **Statistical Analysis** – Applied standard deviation to measure activity balance and validated the threshold against the underlying data.
 * **Pivot Table Analysis** – Built multiple pivot tables with custom aggregations, grouped bands, and slicer-driven views.
-* **Data Visualization** – Selected and designed appropriate chart types, including line charts, clustered bar charts, diverging bars, and 100% stacked bars.
-* **Interactive Dashboard Development** – Built a single-page dashboard with slicers, KPI cards, dynamic charts, and linked interactions.
+* **Data Visualization** – Selected and designed appropriate chart types, including line charts, diverging bars, and 100% stacked bars.
+* **Interactive Dashboard Development** – Built a single-page dashboard with slicers, KPI cards and dynamic charts.
 * **Excel Automation** – Recorded and implemented a VBA macro to clear dashboard filters, improving usability and enabling a cleaner slicer design without visible headers.
 * **Data Storytelling** – Converted analytical findings into concise insight-driven chart titles and dashboard narratives.
 * **Documentation & Reporting** – Produced a structured GitHub README covering methodology, assumptions, calculations, findings, and analytical decisions.
