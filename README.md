@@ -251,4 +251,4 @@ academic performance in this dataset. Students and advisors should reframe
 * Slicer-driven filtering with Report Connections.
 * VBA macro for filter clearing.
 
-
+[View Interactive Dashboard](https://github.com/Princess-Okere/Student-Lifestyle-and-Academic-Performance-Analysis/blob/0c5399114de3ffbac4662b9062157d06fa2add71/Student%20lifestyle%20project.xlsm)
