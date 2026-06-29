@@ -252,3 +252,10 @@ academic performance in this dataset. Students and advisors should reframe
 * VBA macro for filter clearing.
 
 [View Interactive Dashboard](https://github.com/Princess-Okere/Student-Lifestyle-and-Academic-Performance-Analysis/blob/0c5399114de3ffbac4662b9062157d06fa2add71/Student%20lifestyle%20project.xlsm)
+
+[View Presentation(PDF)](https://github.com/user-attachments/files/29464972/Student_Lifestyle_Analysis.pdf)
+[View Presentation(pptx)](https://github.com/user-attachments/files/29465020/Student_Lifestyle_Analysis.pptx)
+
+
+
+*Dataset: Student Lifestyle | Source: Kaggle | Tool: Microsoft Excel*
